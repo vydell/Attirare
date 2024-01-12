@@ -1,3 +1,5 @@
+IMPORTANT! login info, email = testuser@gmail.com, password = 123456
+
 Nama tim = Bocah Fomo,
  Nama Hacker = Fayza Avieninda,
  Nama Aplikasi = Attirare
