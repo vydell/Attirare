@@ -1,6 +1,6 @@
-Nama tim = Bocah Fomo
-Nama Hacker = Fayza Avieninda
-Nama Aplikasi = Attirare
+Nama tim = Bocah Fomo,
+ Nama Hacker = Fayza Avieninda,
+ Nama Aplikasi = Attirare
 
 Fitur yang sesuai dengan sequence yang telah dibuat = Login with credentials (Firebase)
 
