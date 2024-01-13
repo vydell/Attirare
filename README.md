@@ -1,11 +1,13 @@
 IMPORTANT! login info, email = testuser@gmail.com, password = 123456
 
-Nama tim = Bocah Fomo,
- Nama Hacker = Fayza Avieninda,
- Nama Aplikasi = Attirare
-
+Nama tim = Bocah Fomo<br>
+Nama Aplikasi = Attirare<br>
+Hacker = Fayza Avieninda<br>
+Hustler = Poeti Jelita, Muhammad Tony Putra<br>
+Hipster = Batsnah Nabila Zahidah<br>
+<br>
 Fitur yang sesuai dengan sequence yang telah dibuat = Login with credentials (Firebase)
-
+<br>
 Foto tampilan dalam Android Studio
 ![image](https://github.com/vydell/Attirare/assets/145909246/66222273-653d-4ab2-9b02-336cca9a2a67)
 
