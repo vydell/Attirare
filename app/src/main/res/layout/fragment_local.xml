@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.PromoFragment">
+
+    <LinearLayout
+        android:id="@+id/header_local"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="13dp">
+
+        <TextView
+            android:id="@+id/txt_local"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Local Brands"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-black"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:background="@drawable/edittext_bg"
+            android:padding="5dp"
+            android:paddingStart="15dp"
+            android:layout_weight="2"
+            tools:ignore="RtlSymmetry"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/header_line"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/header_local"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_below="@+id/header_line"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FBEDF4"
+        android:id="@+id/local_nav"
+        app:menu="@menu/local_option"
+        app:itemActiveIndicatorStyle="@color/colorTransparent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_post"
+        android:layout_below="@+id/header_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_post"
+        android:layout_marginBottom="40dp"/>
+
+</RelativeLayout>

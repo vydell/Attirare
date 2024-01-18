@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:background="#F3ECEC"
     tools:context=".Auth">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -43,7 +43,7 @@
                 android:text="Attirare"
                 android:textStyle="bold"
                 android:layout_gravity="center_horizontal"
-                android:textColor="#FFC022"
+                android:textColor="@color/colorPrimary"
                 android:textSize="40sp"
                 android:layout_marginBottom="50dp"/>
 
@@ -115,7 +115,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="60dp"
                 android:orientation="horizontal">
 
                 <FrameLayout
@@ -132,9 +132,10 @@
                         android:layout_gravity="center">
 
                         <ImageView
-                            android:layout_width="40dp"
+                            android:layout_width="30dp"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/google_icon"/>
+                            android:src="@drawable/google_icon"
+                            android:layout_marginEnd="5dp"/>
 
                         <TextView
                             android:id="@+id/btn_google_signin"

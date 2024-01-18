@@ -39,6 +39,7 @@ class Auth : AppCompatActivity() {
     private fun firebaseAuth(credential: AuthCredential) {
         auth.signInWithCredential(credential)
             .addOnCompleteListener { task ->
+                CustomDialog.hideLoading()
                 if (task.isSuccessful) {
                     startActivity(Intent(this, MainActivity::class.java))
                     finishAffinity()
@@ -47,6 +48,7 @@ class Auth : AppCompatActivity() {
                 }
             }
             .addOnFailureListener{ exception ->
+                CustomDialog.hideLoading()
                 Toast.makeText(this,exception.message,Toast.LENGTH_SHORT).show()
             }
     }
@@ -70,7 +72,7 @@ class Auth : AppCompatActivity() {
         } else {
             return true
         }
-
+        CustomDialog.hideLoading()
         return false
     }
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_brands"
+        android:title="Brands"
+        android:icon="@drawable/none"/>
+
+    <item
+        android:id="@+id/btn_nearyou"
+        android:title="Near You"
+        android:icon="@drawable/none"/>
+
+    <item
+        android:id="@+id/btn_trends"
+        android:title="Fashion Trends"
+        android:icon="@drawable/none"/>
+
+</menu>
